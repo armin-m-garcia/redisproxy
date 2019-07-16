@@ -4,7 +4,7 @@ service.  In addition, the Redis Proxy provides a server that understands the Re
 and simply redirects the call to the actual Redis instance.
 
 # Architecture
-![alt text](https://github.com/armin-m-garcia/redisproxy/blob/master/redisproxy/src/main/images/rediscache.svg)
+![alt text](https://github.com/armin-m-garcia/redisproxy/blob/master/src/main/images/rediscache.svg)
 
 # Design
 ## Principle
