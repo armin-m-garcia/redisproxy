@@ -1,6 +1,6 @@
-# Redis Cache
-The Redis Cache is a simple implementation of an in-memory cache backed by a Redis instance 
-service.  In addition, the Redis Cache provides a server that understands the Resp protocol 
+# Redis Proxy
+The Redis Proxy is a simple implementation of an in-memory cache backed by a Redis instance 
+service.  In addition, the Redis Proxy provides a server that understands the Resp protocol 
 and simply redirects the call to the actual Redis instance.
 
 # Architecture
