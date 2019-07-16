@@ -37,7 +37,7 @@ used of that subset.  In this case, the complexity is O(m).
 Ehcache's global expiration strategy iterates through all items looking for elements that 
 exceeded their time to live.  This is an O(n) operation.
   
-# Concurrent Processing Analysis
+## Concurrent Processing Analysis
 In the event of a large number of simultaneous requests, the limiting factor on throughput 
 will be:
 * the size of the threadpool.  This will always dictate how many worker threads will 
@@ -85,6 +85,9 @@ This project does not deploy.  It is not part of the requirements.
 This project was not tested on a modern Linux distribution nor on a Mac OS.  This 
 development effort was done solely on a Windows based machine using cygwin.
 The make file was not tested outside of Windows. 
+
+In addition, the tests could have spun up a Redis instance using docker but chose to leverage a
+free one.
 
 # Time Spent
 |Task/Service |    Time     | 
