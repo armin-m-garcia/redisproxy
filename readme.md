@@ -74,7 +74,7 @@ Proxy server.
 
 # Building
 In order to execute:
-1.  Clone the repo `git clone redisproxy`
+1.  Clone the repo `git clone https://github.com/armin-m-garcia/redisproxy.git`
 2.  Inside the redisproxy directory, execute the command `make test`
     * You will be prompted for configuration.  Feel free to use defaults.
 
